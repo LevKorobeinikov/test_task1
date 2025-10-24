@@ -1,7 +1,7 @@
 [project]
-name = "app"
+name = "test_task1"
 version = "0.1.0"
-description = "Battery monitoring service"
+description = "Add your description here"
 requires-python = ">=3.13"
 dependencies = [
     "fastapi>=0.104.0",
@@ -54,6 +54,7 @@ dependencies = [
     "markupsafe>=2.1.0",
     "packaging>=23.0.0",
     "pyyaml>=6.0",
+    "pydantic-settings>=2.0.0",
 ]
 
 [project.optional-dependencies]
@@ -63,7 +64,3 @@ dev = [
     "flake8>=6.0.0",
     "black>=23.0.0",
 ]
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
