@@ -25,4 +25,4 @@ uv run uvicorn app.main:app --reload
  uv run alembic revision --autogenerate -m "..."
 ```
 ## Доступ к документации
-# [Swagger](http://127.0.0.0:8000/docs)
+# [Swagger](http://localhost:8000/docs)
