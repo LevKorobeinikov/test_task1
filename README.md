@@ -15,6 +15,9 @@ pip install --upgrade pip
 uv sync
 ```
 Создать файл .env, заполнить по примеру файла .env.example
+```
+touch .env
+```
 
 Примените миграции и запустите проект  
 ```
