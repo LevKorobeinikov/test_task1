@@ -20,3 +20,9 @@ uv sync
 uv run alembic upgrade head       
 uv run uvicorn app.main:app --reload
 ```
+Для новых миграций
+```
+ uv run alembic revision --autogenerate -m "..."
+```
+## Доступ к документации
+# [Swagger](http://127.0.0.0:8000/docs)
